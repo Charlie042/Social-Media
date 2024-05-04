@@ -1,0 +1,97 @@
+// body{
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+//     background: url(../../assets/jezael-melgoza-2FiXtdnVhjQ-unsplash.jpg);
+//   }
+
+.register{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(175, 97, 248 ),rgba(198, 149, 244));
+    //color: white;
+    .card{
+        background-color: white;
+        display: flex;
+        width: 60%;
+        min-height: 600px;
+        border-radius: 10px;
+        overflow: hidden;
+        flex-direction: row-reverse;
+        .left{
+            flex: 1;
+            background: linear-gradient(rgba(175, 97, 248, 0.504),rgba(198, 149, 244, 0.566)),url(../../assets/jezael-melgoza-2FiXtdnVhjQ-unsplash.jpg) center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 50px;
+            gap: 30px;
+            color:rgb(249, 249, 249);
+
+            h1{
+                font-size: 80px;
+                line-height: 80px;
+
+            }
+            p{
+
+            }
+            span{
+                font-size: 14px;
+
+            }
+            button{
+                padding: 10px;
+                background-color: white;
+                color:  rgb(155, 58, 155);
+                margin: 30px;
+                width: 40%;
+                border:none;
+                border-radius: 10px;
+                font-weight: bold;
+                cursor: pointer;
+
+            }
+        }
+        .right{
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction:column;
+            gap: 50px;
+            justify-content: center;
+
+            h1{
+                color: rgb(54, 53, 53);
+               
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px;
+
+
+                }
+                button{
+                    width: 50%;
+                    border: none;
+                    height: 50px;
+                    border-radius: 10px;
+                    color: white;
+                    font-weight: bold;
+                    background-color: rgb(155, 58, 155);
+    
+                }
+            }
+            
+        }
+    }     
+    
+}
